@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Agatjewelry
+    </title>
+    <meta name="description"
+          content="Агат-ювелирная мастерская в городе Братске"/>
+    <meta name="keywords" content="Ювелирные украшения, ювелирная мастерская, золото, изготовление украшений " />
+
+    <!--Inter UI font-->
+    <link href="https://rsms.me/inter/inter-ui.css" rel="stylesheet">
+    
+
+    <!--vendors styles-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+    <!-- Bootstrap CSS / Color Scheme -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <link rel="shortcut icon" type="image/png" href="img\9.png"/>
+</head>
+<body>
+
+<!--navigation-->
+<section class="smart-scroll">
+    
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a class="navbar-brand heading-black fo" href="index.html">
+                Agatjewelry
+            </a>
+            <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span data-feather="grid"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                   <li class="nav-item">
+                    
+                   
+                      <form onsubmit="searchImages(); return false;">
+                        <div>
+                            <input class="bg-gr-np" type="text" id="searchInput" name="q" placeholder="article"/>
+                            <button class="tp page-scroll" type="submit">Поиск</button>
+                            <div id="searchResults"></div>
+                        </div>
+                    </form>
+                    
+                  
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#features">О нас</a>
+                    </li>
+                    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#faq">Услуги</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="gallery.html">Каталог</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#form">Связаться</a>
+                    </li>
+                    
+                </ul>
+            </div> 
+        </nav>
+    </div>
+</section>
+
+<!--hero header-->
+<section class="py-7 py-md-0 back_hero" id="home">
+    <div class="container pd">
+        <div class="row vh-md-100">
+            <div class="col-md-8 col-sm-10 col-12 mx-auto my-auto">
+                <h2 class="main-title">Ювелирная мастерская в городе Братске</h2>
+    
+                <a href="gallery.html"><button class="btn btn-secondary d-inline-flex flex-row align-items-center">
+                    Перейти в галерею 
+                    <em class="ml-2" data-feather="chevrons-right"></em></button></a>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- features section -->
+<section class="pt-6 pb-7" id="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+                <h4 class="fo">Мы заботимся о каждом клиенте</h2>
+                <p class="text-muted lead"> Предоставляем всё необходимое для создания и ухода за вашими украшениями. От уникальных дизайнов до профессионального ремонта и обслуживания – мы здесь, чтобы ваши драгоценности всегда радовали глаз.</p>
+            </div>
+        </div>
+        <div class="row mt-5 back">
+            <div class="col-md-10 mx-auto">
+                <div class="row feature-boxes">
+                    <div class="col-md-6 box">
+                        <div class="icon-box box-light">
+                            <div class="icon-box-inner">
+                                <span data-feather="award" width="25" height="25"></span>
+                            </div>
+                        </div>
+                        <h5>Высокое качество материалов</h5>
+                        <p class="text-muted"> Мы используем только лучшие драгоценные металлы и камни, обеспечивая долговечность и великолепный внешний вид наших изделий. Качество – наш приоритет.</p>
+                    </div>
+                    <div class="col-md-6 box">
+                        <div class="icon-box box-light">
+                            <div class="icon-box-inner">
+                                <span data-feather="star" width="25" height="25"></span>
+                            </div>
+                        </div>
+                        <h5>Мастерство и опыт</h5>
+                        <p class="text-muted">Наши ювелиры – настоящие художники, с многолетним опытом и глубокими знаниями в ювелирном искусстве. Они создают изделия, которые восхищают своей красотой и сложностью.</p>
+                    </div>
+                    <div class="col-md-6 box">
+                        <div class="icon-box box-light">
+                            <div class="icon-box-inner">
+                                <span data-feather="edit-3" width="25" height="25"></span>
+                            </div>
+                        </div>
+                        <h5>Эксклюзивные Дизайны</h5>
+                        <p class="text-muted">Мы создаем уникальные украшения, которые невозможно найти в массовом производстве. Ваше изделие будет единственным в своем роде, отражающим вашу индивидуальность и стиль.</p>
+                    </div>
+                    <div class="col-md-6 box">
+                        <div class="icon-box box-light">
+                            <div class="icon-box-inner">
+                                <span data-feather="user" width="25" height="25"></span>
+                            </div>
+                        </div>
+                        <h5>Индивидуальный подход</h5>
+                        <p class="text-muted">Каждое изделие создается с учетом ваших предпочтений и уникальных требований. Мы работаем с вами на всех этапах – от идеи до готового изделия, чтобы ваше украшение стало действительно личным и значимым.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-6">
+            <div class="col-md-6 mr-auto">
+                <h4 class="fo">Мы чуть больше, чем просто мастерская</h2>
+                <p class="mb-5">В нашей мастерской мы стремимся создавать не просто украшения, а особенные вещи, которые имеют значение для вас и ваших близких. Каждый наш продукт рождается из любви к искусству и уважения к традициям, чтобы стать частью ваших важных моментов.
+
+                    Наши мастера работают с вниманием к деталям и ювелирной точностью, превращая ваши идеи в уникальные шедевры. Мы понимаем, что украшения — это не просто аксессуары, а символы любви, дружбы и важных событий в вашей жизни.
+                    
+                    Приходите к нам, и мы поможем вам создать что-то действительно особенное. Мы не просто ювелирная мастерская. Мы создаем вещи, которые будут радовать вас и ваших близких долгие годы.</p>
+                <a href="gallery.html" class="btn btn-secondary">
+                    Перейти в каталог
+                </a>
+            </div>
+            <div class="col-md-5">
+                <div class="slick-about">
+                    <img src="img/slider1.png" class="img-fluid rounded d-block mx-auto" alt="Work 1"/>
+                    <img src="img/slider2.png" class="img-fluid rounded d-block mx-auto" alt="Work 2"/>
+                    <img src="img/slider3.png" class="img-fluid rounded d-block mx-auto" alt="Work 3"/>
+                    <img src="img/slider4.png" class="img-fluid rounded d-block mx-auto" alt="Work 4"/>
+                    <img src="img/slider5.png" class="img-fluid rounded d-block mx-auto" alt="Work 5"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!--faq section-->
+<section class="py-7" id="faq">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+                <h4 class="fo">Наши услуги</h2>
+                <p class="text-muted lead"></p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-10 mx-auto">
+                <div class="row">
+                    <div class="col-md-6 mb-5">
+                        <h6>&bull; Закрепка камней</h6>
+                        <p class="text-muted">Надежное и эстетичное крепление драгоценных камней в оправе изделия.Крапан, глухая, рельсовая и закрепка паве подчеркнут красоту камня.</p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h6>&bull; Ремонт и реставрация ювелирных изделий</h6>
+                        <p class="text-muted"> Восстановление и обновления украшений, утративших свой первоначальный блеск и форму. Возвращаем поврежденным изделиям их изначальный вид.</p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h6>&bull; Изготовление копий ювелирных изделий</h6>
+                        <p class="text-muted">Утеряли любимое украшение или хотите создать точную копию семейной реликвии?Воссоздаем ювелирные изделия, сохраняя их оригинальный дизайн и эмоции. </p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h6>&bull; Родирование и золочение изделий</h6>
+                        <p class="text-muted">Придаст вашим изделиям роскошный блеск и защитит их от потускнения.</p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h6>&bull; Чистка и полировка ювелирных изделий</h6>
+                        <p class="text-muted">Удалим загрязнения ваших украшений и придадим им блеск, продлевая срок их службы.</p>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h6>&bull;Оценка и консультации</h6>
+                        <p class="text-muted">Профессионально оценим стоимость и дадим ценные советы.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6 mx-auto text-center">
+                <h5 class="mb-4">Еще больше актуальных работ, процесс изготовления в нашем telegram-канале</h5>
+                <a href="https://t.me/AOS_Agat" class="btn btn-secondary">TELEGRAM</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--news section-->
+<section class="py-7 bg-dark section-angle top-left bottom-left" id="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+                <h4 class="fo">Что нового у нас и в мире ювелирного искусства?</h2>
+                <p class="text-muted lead">Новости мастерской, статьи</p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top img-raised" src="img/blog-1.jpg" alt="Blog 1">
+                    </a>
+                    <div class="card-body">
+                        <a href="blog.html" class="card-title mb-2"><h5>Возвращение к традициям: ручная работа и ремесленные техники</h5></a>
+                        <p class="text-muted small-xl mb-2">17 сентября 2023</p>
+                        <p class="card-text">Сегодня ювелирные изделия перестали быть просто красивыми аксессуарами..<a href="blog.html">Читать дальше</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="blog.html">
+                        <img class="card-img-top img-raised" src="img/blog-2.jpg" alt="Blog 2">
+                    </a>
+                    <div class="card-body">
+                        <a href="#" class="card-title mb-2"><h5>Этика и экология
+                        </h5></a>
+                        <p class="text-muted small-xl mb-2">16 августа 2024</p>
+                        <p class="card-text">Многие бренды стали давать возможность переплавить.. <a href="blog.html">Читать дальше</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="blog.html">
+                        <img class="card-img-top img-raised" src="img/blog-3.jpg" alt="Blog 3">
+                    </a>
+                    <div class="card-body">
+                        <a href="#" class="card-title mb-2"><h5>Персонализация на пике: украшения со смыслом</h5></a>
+                        <p class="text-muted small-xl mb-2">2 декабря 2024</p>
+                        <p class="card-text">Персонализация не ограничивается только гравировкой.. <a href="blog.html">Читать дальше</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-6">
+            <div class="col-md-6 mx-auto text-center">
+                <a href="blog.html" class="btn btn-secondary">Посмотреть все посты</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-7" id="form">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+                <h4 class="fo">Связаться</h2>
+                    <form onsubmit="sendEmailTelegram(event)">
+                    <div class="form__group">
+                        <label for="name">Имя</label>
+                        <input type="text" name="name" autocomplete="off" maxlength="50" required>
+        
+                        <label for="pass">Сообщение</label>
+                        <input type="text" name="pass" autocomplete="off" maxlength="500" required>
+        
+                        <label for="email">Email</label>
+                        <input type="email" name="email" autocomplete="off" maxlength="50" required>
+        
+                        <label for="phone">Номер телефона</label>
+                        <input type="tel" name="phone" autocomplete="off" maxlength="15" required>
+                    </div>
+                    <div class="form__submit-button">
+                        <button type="submit" class="btn btn-secondary">Отправить</button>
+                    </div>
+                </div>
+                <div class="form__send-result"></div>
+            </form> 
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<!--footer-->
+<footer class="py-6">
+    <div class="container">
+       
+        </div>
+        <div class="row mt-5">
+         
+        <div class="col-12 text-muted text-center ">Наши адреса:</div>
+        <div class="col-12 text-muted text-center">ТЦ Пурсей, Братск, Наймушина, 32</div>
+        <div class="col-12 text-muted text-center">ТЦ Кооператор, Братск, Обручева, 28</div>
+        <div class="col-12 text-muted text-center">ДБ Сосновый, Братск, Сосновая, 10Б</div>
+        <div class="col-12 text-muted text-center">ТЦ Кристалл, Братск,Юбилейная, 15</div>
+        
+         
+        <div class="col-12 text-muted text-center small-xl">Телефон: +7 (983) 443-92-74
+            Почта: mail@agatbratsk.ru</div>
+        
+            <div class="col-12 text-white text-center small-xl">
+                &copy; Agatjewelry  2024  All Rights Reserved
+            </div>
+            <div class="col-12 text-muted text-center small-xl"><a href="https://agatbratsk.ru">к старой версии сайта</a></div>
+        </div>
+    </div>
+</footer>
+
+<!--scroll to top-->
+<div class="scroll-top">
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+</div>
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>

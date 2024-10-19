@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Agatjewelry
+    </title>
+    <meta name="description"
+          content="Агат-ювелирная мастерская в городе Братске"/>
+
+    <!--Inter UI font-->
+    <link href="https://rsms.me/inter/inter-ui.css" rel="stylesheet">
+    
+
+    <!--vendors styles-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+    <!-- Bootstrap CSS / Color Scheme -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <link rel="shortcut icon" type="image/png" href="img\9.png"/>
+</head>
+<body>
+
+<!--navigation-->
+<section class="smart-scroll">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <a class="navbar-brand heading-black fo" href="index.html">
+                Agatjewelry
+            </a>
+            <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span data-feather="grid"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <form onsubmit="searchImages(); return false;">
+                            <div>
+                                <input class="bg-gr-np" type="text" id="searchInput" name="q" placeholder="article"/>
+                                <button class="tp page-scroll" type="submit">Поиск</button>
+                                <div id="searchResults"></div>
+                            </div>
+                        </form>
+                        
+                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="index.html#features">О нас</a>
+                    </li>
+                    
+                  
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="index.html#faq">Услуги</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="gallery.html">Каталог</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="index.html#form">Связаться</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</section>
+
+<!--gallery section-->
+<section class="py-7 bg-dark section-angle top-left bottom-left" id="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+                <h4 class="fo">Каталоги</h2>
+                <p class="text-muted lead">Изделия в золоте и серебре</p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="chains-and-bracelets.html">
+                        <img class="card-img-top img-raised" src="img/chains-and-bracelets/chains-cover.png" alt="chains-and-bracelets">
+                    </a>
+                    <div class="card-body">
+                        <a href="chains-and-bracelets.html" class="card-title mb-2"><h5>Цепи и браслеты</h5></a>
+                        <p class="text-muted small-xl mb-2">Изделия в золоте и серебре весом от 5г.</p>
+                        <a href="chains-and-bracelets.html">Перейти</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="wedding-rings.html">
+                        <img class="card-img-top img-raised" src="img/wedding-rings/cover-wedding.png" alt="cover-wedding">
+                    </a>
+                    <div class="card-body">
+                        <a href="wedding-rings.html" class="card-title mb-2"><h5>Обручальные кольца</h5></a>
+                        <p class="text-muted small-xl mb-2">Изделия в золоте и серебре</p>
+                        <a href="wedding-rings.html">Перейти</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="engagement-rings.html">
+                        <img class="card-img-top img-raised" src="img/engagement-rings/cover-engagement-rings.png" alt="Blog 2">
+                    </a>
+                    <div class="card-body">
+                        <a href="engagement-rings.html" class="card-title mb-2"><h5>Помолвочные кольца</h5></a>
+                        <p class="text-muted small-xl mb-2">Изделия в золоте и серебре</p>
+                        <a href="engagement-rings.html">Перейти</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="mensrings.html">
+                        <img class="card-img-top img-raised" src="img/mensrings/cover-mans-rings.png" alt="cover-mans-rings">
+                    </a>
+                    <div class="card-body">
+                        <a href="mensrings.html" class="card-title mb-2"><h5>Мужские кольца|печатки</h5></a>
+                        <p class="text-muted small-xl mb-2">Изделия в золоте и серебре</p>
+                        <a href="mensrings.html">Перейти</a>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="crosses.html">
+                        <img class="card-img-top img-raised" src="img/crosses/crosses-cover.png" alt="Blog 3">
+                    </a>
+                    <div class="card-body">
+                        <a href="crosses.html" class="card-title mb-2"><h5>Кресты</h5></a>
+                        <p class="text-muted small-xl mb-2">Изделия в золоте и серебре</p>
+                        <a href="crosses.html">Перейти</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="sharm-beads.html">
+                        <img class="card-img-top img-raised" src="img/sharm-beads/sharm-beads-cover.png" alt="sharm-beads">
+                    </a>
+                    <div class="card-body">
+                        <a href="sharm-beads.html" class="card-title mb-2"><h5>Шарм-бусины</h5></a>
+                        <p class="text-muted small-xl mb-2">Изделия в золоте и серебре</p>
+                        <a href="sharm-beads.html">Перейти</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="pendants.html">
+                        <img class="card-img-top img-raised" src="img/pendants/pendants-cover.png" alt="pendants">
+                    </a>
+                    <div class="card-body">
+                        <a href="pendants.html" class="card-title mb-2"><h5>Подвески</h5></a>
+                        <p class="text-muted small-xl mb-2">Изделия в золоте и серебре</p>
+                        <a href="pendants.html">Перейти</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="sets.html">
+                        <img class="card-img-top img-raised" src="img/sets/sets-cover.png" alt="sets">
+                    </a>
+                    <div class="card-body">
+                        <a href="sets.html" class="card-title mb-2"><h5>Гарнитуры</h5></a>
+                        <p class="text-muted small-xl mb-2">Изделия в золоте и серебре</p>
+                        <a href="sets.html">Перейти</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="necklace.html">
+                        <img class="card-img-top img-raised" src="img/necklace/necklace-cover.png" alt="necklace">
+                    </a>
+                    <div class="card-body">
+                        <a href="necklace.html" class="card-title mb-2"><h5>Колье</h5></a>
+                        <p class="text-muted small-xl mb-2">Изделия в золоте и серебре</p>
+                        <a href="necklace.html">Перейти</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="earrings.html">
+                        <img class="card-img-top img-raised" src="img/earrings/earrings-cover.png" alt="earrings">
+                    </a>
+                    <div class="card-body">
+                        <a href="earrings.html" class="card-title mb-2"><h5>Серьги</h5></a>
+                        <p class="text-muted small-xl mb-2">Изделия в золоте и серебре</p>
+                        <a href="earrings.html">Перейти</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="souvenirs.html">
+                        <img class="card-img-top img-raised" src="img/souvenirs/souvenirs-cover.png" alt="souvenirs">
+                    </a>
+                    <div class="card-body">
+                        <a href="souvenirs.html" class="card-title mb-2"><h5>Сувениры</h5></a>
+                        <p class="text-muted small-xl mb-2">Изделия в золоте и серебре</p>
+                        <a href="souvenirs.html">Перейти</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="keychains.html">
+                        <img class="card-img-top img-raised" src="img/keychains/keychains-cover.png" alt="keychains">
+                    </a>
+                    <div class="card-body">
+                        <a href="keychains.html" class="card-title mb-2"><h5>Брелки</h5></a>
+                        <p class="text-muted small-xl mb-2">Изделия в золоте и серебре</p>
+                        <a href="keychains.html">Перейти</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="locks.html">
+                        <img class="card-img-top img-raised" src="img/locks/locks-cover.png" alt="locks">
+                    </a>
+                    <div class="card-body">
+                        <a href="locks.html" class="card-title mb-2"><h5>Замки</h5></a>
+                        <p class="text-muted small-xl mb-2">Изделия в золоте и серебре</p>
+                        <a href="locks.html">Перейти</a>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="brooches.html">
+                        <img class="card-img-top img-raised" src="img/brooches/brooches-cover.png" alt="brooches">
+                    </a>
+                    <div class="card-body">
+                        <a href="brooches.html" class="card-title mb-2"><h5>Броши</h5></a>
+                        <p class="text-muted small-xl mb-2">Изделия в золоте и серебре</p>
+                        <a href="brooches.html">Перейти</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-6">
+        <div class="col-md-6 mx-auto text-center">
+            <a href="index.html" class="btn btn-secondary">На главную</a>
+        </div>
+    </div>
+</section>
+
+<!--footer-->
+<footer class="py-6">
+    <div class="container">
+       
+        </div>
+        <div class="row mt-5">
+         
+        <div class="col-12 text-muted text-center ">Наши адреса:</div>
+        <div class="col-12 text-muted text-center">ТЦ Пурсей, Братск, Наймушина, 32</div>
+        <div class="col-12 text-muted text-center">ТЦ Кооператор, Братск, Обручева, 28</div>
+        <div class="col-12 text-muted text-center">ДБ Сосновый, Братск, Сосновая, 10Б</div>
+        <div class="col-12 text-muted text-center">ТЦ Кристалл, Братск,Юбилейная, 15</div>
+        
+         
+        <div class="col-12 text-muted text-center small-xl">Телефон: +7 (983) 443-92-74
+            Почта: mail@agatbratsk.ru</div>
+        
+            <div class="col-12 text-white text-center small-xl">
+                &copy; Agatjewelry  2024  All Rights Reserved
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--scroll to top-->
+<div class="scroll-top">
+    <i class="fa fa-angle-up" aria-hidden="true"></i>
+</div>
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
